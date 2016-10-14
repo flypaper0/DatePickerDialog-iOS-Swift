@@ -134,7 +134,6 @@ public class DatePickerDialog: UIView {
   
   /// Creates the container view here: create the dialog, then add the custom content and buttons
   private func createContainerView() -> UIView {
-    let frame = frame
     let dialogSize = CGSize(
       width: 300,
       height: 230
